@@ -1,0 +1,307 @@
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+    text-decoration: none;
+    user-select: none;
+    background: url("./gamePageImg/background_3.png");
+}
+
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.scrimer{
+    position: fixed;
+    z-index: 10000;
+    width:100%;
+    height: 100vh;
+    pointer-events: none;
+}
+
+._cursor{
+    cursor: pointer;
+}
+
+
+/* container */
+
+.container {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    position: absolute;
+    height: 118px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.88);
+    user-select: none;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    height: 118px;
+    width: 239px;
+    display: flex;
+    align-items: center;
+}
+
+.logoImg {
+    width: 58px;
+    height: 58px;
+    margin: auto;
+    margin-right: 30px;
+}
+
+.logoText {
+    float: right;
+    text-align: left;
+    font-weight: 700;
+    font-size: 35px;
+    width: 154px;
+    color: #00A3FF;
+}
+
+/* navigation */
+
+.nav {
+    font-size: 0px;
+    font-weight: 300;
+    height: 70px;
+}
+
+.nav_block {
+    display: inline-block;
+    white-space: nowrap;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    transition: all 300ms linear;
+}
+
+.nav_block:hover {
+    background-color: rgba(0, 163, 255, 0.63);
+    box-shadow: 0px 4px 31px 2px #00A3FF;
+    color: black;
+}
+
+.nav_link {
+    font-size: 18px;
+    position: relative;
+    top: calc(50% - 11px);
+}
+
+/* top navigation */
+
+.top_nav {
+    position: relative;
+    height: 48px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.top_nav_block {
+    display: inline-block;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.top_nav_block a {
+    text-decoration: none;
+    color: #ffff
+}
+
+.top_nav_img {
+    margin-top: 2px;
+    margin-left: 5px;
+    height: 6px;
+    width: 10px;
+}
+
+
+
+/* newGames */
+
+.games_block{
+    position: relative;
+    padding-top: 218px;
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.backImage {
+    position: absolute;
+    width: 2193px;
+    height: 2911px;
+    left: 676px;
+    top:-332px;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+.newGames {
+    position: relative;
+    width: 100%;
+    height: 470px;
+    z-index: 2;
+}
+
+.newGames_inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.gamesCard {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game {
+    text-align: center;
+    width: 340px;;
+}
+
+
+
+.game img {
+    width: 100%;
+    height: 190px;
+    border-radius: 36px;
+    box-shadow: 0px 24px 24px -24px #00A3FF;
+    transition: all 300ms ease-out;
+}
+
+.game img:hover {
+    transform: translateY(-20%);
+    box-shadow: 0px 0px 20px 5px #00A3FF;
+}
+
+.nameGame {
+    position: relative;
+    top: 15px;
+    margin: 0 auto;
+    height: 80px;
+    width: 300px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+
+
+/* .nameGame._scrimer._on{
+    font-size: 30px;
+    color: red;
+    transition: all 500 linear;
+} */
+
+
+.last {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    background-image: url("./gamePageImg/end/last.png");
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.last_inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 20px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts .text {
+    margin-right: 40px;
+}
+
+.contacts .link .text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.phone {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.mail {
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.public {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.public .link {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.public .text {
+    color: #00A3FF;
+}
+
+.public .link img {
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}

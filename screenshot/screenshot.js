@@ -21,11 +21,11 @@ $(document).ready(function () {
         location.href = "../gameplay/gameplay.html"
     })
     $('.logo').click(function () {
-        location.href = '../mainPageFolder/mainPage.html'
+        location.href = '../index.html'
     })
 
     $('#main').click(function () {
-        location.href = '../mainPageFolder/mainPage.html'
+        location.href = '../index.html'
     })
     $('#games').click(function () {
         location.href = "../gamePage/gamePage.html"

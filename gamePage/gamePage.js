@@ -8,11 +8,11 @@ $(document).ready(function () {
     })
 
     $('.logo').click(function () {
-        location.href = '../mainPageFolder/mainPage.html'
+        location.href = '../index.html'
     })
 
     $('#main').click(function () {
-        location.href = '../mainPageFolder/mainPage.html'
+        location.href = '../index.html'
     })
 
     $('#reviews').click(

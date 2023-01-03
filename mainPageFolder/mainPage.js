@@ -53,25 +53,25 @@ $(document).ready(function () {
 
     $('#games').click(
         function(){
-            location.href = "../gamePage/gamePage.html"
+            location.href = "gamePage/gamePage.html"
         }
     )
     $('#reviews').click(
         function(){
-            location.href = "../reviews/reviews.html"
+            location.href = "reviews/reviews.html"
         }
     )
 
     $('#screen').click(function () {
-        location.href = "../screenshot/screenshot.html"
+        location.href = "screenshot/screenshot.html"
     })
 
     $('#gameplay').click(function () {
-        location.href = "../gameplay/gameplay.html"
+        location.href = "gameplay/gameplay.html"
     })
 
     $('.image_review').click(function(){
-        location.href = "../gameReviews/gameReview.html"
+        location.href = "gameReviews/gameReview.html"
     })
 
     $('#tg').click(function(){

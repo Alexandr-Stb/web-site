@@ -40,7 +40,7 @@ Perfect Game[^1] - это шаблон сайта, который публику
 }
 ```
 
-![animation](./readmeFolder/hoverAnimation.gif)
+![animation](https://drive.google.com/file/d/18x-ib8wh_JqRm9YiVn4zKq4wwNbUWYqM/view?usp=sharing)
 
 ###Скриншоты
 

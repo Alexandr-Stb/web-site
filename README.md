@@ -1,8 +1,13 @@
 # <div align=center>![logo](./readmeFolder/logo.png)
 
+# Ссылки на [Сайт](https://alexandr-stb.github.io/web-site) и [Макет](https://www.figma.com/file/YQTADHwxZTjUB3mgqr2eUW/Perfect-Game?node-id=0%3A1&t=k9uesZSKH9ADGVD4-1):
 
 
-Perfect Game[^1] - это шаблон сайта, который публикует обзоры игр, скриншоты пользователей, и видео с геймплеем. На сайте реализованны все базовые механики свзяки **HTML, CSS, JavaScript. JS** шел в связке с **jQuerry**.  Вся верстка делалась с авторского макета, сделанного в **Figma[^2]**
+
+
+
+Perfect Game - это шаблон сайта, который публикует обзоры игр, скриншоты пользователей, и видео с геймплеем. На сайте реализованны все базовые механики свзяки **HTML, CSS, JavaScript. JS** шел в связке с **jQuerry**.  Вся верстка делалась с авторского макета, сделанного в **Figma**
+
 
 
 ## Начинка
@@ -121,8 +126,5 @@ $(document).ready(function () {
 Все ссылки на страницах выше ведут, на эту страницу.
 
 
-[^1]:[Ссылка на демо сайта (GitHubPages)](https://alexandr-stb.github.io/web-site)
 
-
-[^2]:[Ссылка на макет (Figma)](https://www.figma.com/file/YQTADHwxZTjUB3mgqr2eUW/Perfect-Game?node-id=0%3A1&t=k9uesZSKH9ADGVD4-1)
 
